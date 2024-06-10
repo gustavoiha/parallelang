@@ -1,8 +1,12 @@
 'use client'
 
+import { useRouter } from 'next/navigation'
+
 import ListSelect from '@/components/list-select'
 
 export default function TargetLanguage () {
+  const router = useRouter()
+
   const languages = [{
     id: '1',
     label: 'English'
@@ -34,6 +38,8 @@ export default function TargetLanguage () {
 
   const handleOnSelectLanguage = (language: string) => {
     console.log(language)
+
+    router.push('learning-goal')
   }
 
   return (
@@ -42,7 +48,13 @@ export default function TargetLanguage () {
         <article>
           <section>
             <h1 className="text-4xl font-light">
-              What language do you want to learn?
+              What language do you&nbsp;
+
+              <span className="text-amber-500">
+                want to learn
+              </span>
+
+              ?
             </h1>
 
             <p className="text-body mt-12">

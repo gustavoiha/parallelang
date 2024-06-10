@@ -48,7 +48,13 @@ export default function NativeLanguage () {
         <article>
           <section>
             <h1 className="text-4xl font-light">
-              What is your native language?
+              What is your&nbsp;
+
+              <span className="text-amber-500">
+                native language
+              </span>
+
+              ?
             </h1>
 
             <p className="text-body mt-12">

@@ -7,11 +7,15 @@ export default function WelcomeTutorial () {
         <article>
           <section>
             <h1 className="text-4xl font-light">
-              Explore each lesson on your own
+              Explore each lesson&nbsp;
+
+              <span className="text-amber-500">
+                on your own
+              </span>
             </h1>
 
             <p className="text-2xl mt-20 font-light">
-              But we recommend:
+              We recommend:
             </p>
 
             <ol className="text-body mt-12 list-decimal list-outside pl-4">
