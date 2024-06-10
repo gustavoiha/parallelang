@@ -9,9 +9,9 @@ export default function WelcomeIntroduction () {
             <h1 className="text-4xl font-light">
               Welcome to&nbsp;
 
-              <span className="font-medium text-amber-400">
+              <em className="font-medium text-amber-400 not-italic">
                 Parallelang
-              </span>
+              </em>
 
               !
             </h1>

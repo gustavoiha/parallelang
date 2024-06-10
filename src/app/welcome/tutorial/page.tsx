@@ -9,9 +9,9 @@ export default function WelcomeTutorial () {
             <h1 className="text-4xl font-light">
               Explore each lesson&nbsp;
 
-              <span className="text-amber-400">
+              <em className="text-amber-400 not-italic">
                 on your own
-              </span>
+              </em>
             </h1>
 
             <p className="text-2xl mt-20 font-light">

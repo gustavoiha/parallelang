@@ -50,9 +50,9 @@ export default function TargetLanguage () {
             <h1 className="text-4xl font-light">
               What language do you&nbsp;
 
-              <span className="text-amber-400">
+              <em className="text-amber-400 not-italic">
                 want to learn
-              </span>
+              </em>
 
               ?
             </h1>

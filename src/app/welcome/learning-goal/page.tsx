@@ -29,9 +29,9 @@ export default function LearningGoal () {
             <h1 className="text-4xl font-light">
               What are you learning&nbsp;
 
-              <span className="text-amber-400">
+              <em className="text-amber-400 not-italic">
                 Italian&nbsp;
-              </span>
+              </em>
 
               for?
             </h1>
