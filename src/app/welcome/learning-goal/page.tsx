@@ -29,7 +29,7 @@ export default function LearningGoal () {
             <h1 className="text-4xl font-light">
               What are you learning&nbsp;
 
-              <span className="text-amber-500">
+              <span className="text-amber-400">
                 Italian&nbsp;
               </span>
 

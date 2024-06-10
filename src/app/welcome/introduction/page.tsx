@@ -9,7 +9,7 @@ export default function WelcomeIntroduction () {
             <h1 className="text-4xl font-light">
               Welcome to&nbsp;
 
-              <span className="font-medium text-amber-500">
+              <span className="font-medium text-amber-400">
                 Parallelang
               </span>
 

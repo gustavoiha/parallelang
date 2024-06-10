@@ -50,7 +50,7 @@ export default function NativeLanguage () {
             <h1 className="text-4xl font-light">
               What is your&nbsp;
 
-              <span className="text-amber-500">
+              <span className="text-amber-400">
                 native language
               </span>
 

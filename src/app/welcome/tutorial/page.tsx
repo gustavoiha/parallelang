@@ -9,7 +9,7 @@ export default function WelcomeTutorial () {
             <h1 className="text-4xl font-light">
               Explore each lesson&nbsp;
 
-              <span className="text-amber-500">
+              <span className="text-amber-400">
                 on your own
               </span>
             </h1>
